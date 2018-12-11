@@ -1,0 +1,35 @@
+html{
+    box-sizing: border-box
+}
+*::before, *::after{
+    box-sizing: inherit
+}
+.wrapper{
+    width: 750px;
+    margin: auto;
+}
+
+.left {
+   background: green;
+  width:350px ;
+  height:500px ;
+  float: left;
+}
+.inside{
+    background: red;
+    text-align: center
+}
+.middle{
+    background: blue;
+    width: 1700px ;
+    height:500px ;
+    float: left;
+}
+.right{
+    background: yellow;
+    width: 170px;
+    height: 500px;
+    float: left;
+}
+    
+
